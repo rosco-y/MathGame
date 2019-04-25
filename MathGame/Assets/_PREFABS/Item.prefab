@@ -136,12 +136,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4ede967f5308f4abfda71fed85e792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Dollars: 36
+  _Dollars: 10
   _HalfDollars: 1
   _Quarters: 1
   _Dimes: 4
   _Nickels: 1
-  _Pennies: 4
+  _Pennies: 0
   _textMesh: {fileID: 2455411463501863653}
 --- !u!1 &2455411463501863655
 GameObject:
@@ -283,11 +283,11 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 2.3
+  m_fontSize: 1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 2
+  m_fontSizeMin: 1
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10.333984, y: 2.3993163, z: 8.707912, w: 2.3427734}
+  m_margin: {x: 10.567439, y: 2.5138183, z: 8.932559, w: 2.3804078}
   m_textInfo:
     textComponent: {fileID: 2455411463501863653}
     characterCount: 5
