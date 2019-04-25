@@ -8,7 +8,6 @@ public class cItemPool : MonoBehaviour
     Queue<cItemPricer> _pool = new Queue<cItemPricer>();
     Vector3 _position;
     Quaternion _rotation;
-    int _maxItemCount = 0;
     static cItemPool _instance;
 
     public static cItemPool Instance
@@ -29,10 +28,6 @@ public class cItemPool : MonoBehaviour
 
     public cItemPricer Get()
     {
-        if (_pool.Count > _maxItemCount)
-            _maxItemCount = _pool.Count;
-
-        print($"Pool Item Count is {_maxItemCount}.");
 
         if (_pool.Count == 0)
         {
